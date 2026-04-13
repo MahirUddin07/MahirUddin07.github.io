@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grund HTML-sida</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Egen CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+    </header>
+    
+<main class="container-fluid p-0">
+  <section class="team-hero position-relative vh-100 d-flex align-items-center" 
+           style="background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('gruppbild.png') center/cover no-repeat;">
+    
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-10">
+          
+          <div id="hairTeamCarousel" class="carousel slide carousel-fade shadow-lg rounded-4 overflow-hidden" data-bs-ride="carousel" style="background: rgba(255, 255, 255, 0.1); backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.2);">
+            
+            <div class="carousel-inner">
+              
+              <div class="carousel-item active" data-bs-interval="8000">
+                <div class="row g-0 align-items-center">
+                  <div class="col-md-5">
+                    <img src="Nillson.jpg" class="d-block w-100 object-fit-cover" style="height: 500px;" alt="Linda Nillson">
+                  </div>
+                  <div class="col-md-7 p-5 text-white">
+                    <span class="badge bg-secondary mb-2">Grundare & Lärare</span>
+                    <h2 class="display-6 fw-bold">Linda Nillson</h2>
+                    <p>Jag är 40 år och har jobbat som frisör i över 20 år. Som tidigare lärare är jag väldigt petig med tekniken. Min specialitet är färgförändringar och avancerade klippningar.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="8000">
+                <div class="row g-0 align-items-center">
+                  <div class="col-md-5">
+                    <img src="Sofia.jpg" class="d-block w-100 object-fit-cover" style="height: 500px;" alt="Sofia">
+                  </div>
+                  <div class="col-md-7 p-5 text-white">
+                    <span class="badge bg-secondary mb-2">Stylingexpert</span>
+                    <h2 class="display-6 fw-bold">Sofia</h2>
+                    <p>Helt fantastisk på bruduppsättningar och styling. Sofia är vår expert på "balayage" för naturliga resultat. Hon är kreativ och sprider mycket energi i teamet.</p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="8000">
+                <div class="row g-0 align-items-center">
+                  <div class="col-md-5">
+                    <img src="Isak.jpg" class="d-block w-100 object-fit-cover" style="height: 500px;" alt="Isak">
+                  </div>
+                  <div class="col-md-7 p-5 text-white">
+                    <span class="badge bg-secondary mb-2">Herrklippning & Trend</span>
+                    <h2 class="display-6 fw-bold">Isak</h2>
+                    <p>Vår yngre talang som är otroligt duktig på herrklippningar och skägg. Isak har stenkoll på de senaste trenderna och sköter våra sociala medier.</p>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#hairTeamCarousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon"></span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#hairTeamCarousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon"></span>
+            </button>
+
+          </div> </div>
+      </div>
+    </div>
+  </section>
+</main>
+    <footer></footer>
+
+
+</body>
+<!-- Bootstrap JS (valfritt) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Egen JS (valfritt) -->
+<script src="init.js"></script>
+
+</html>
