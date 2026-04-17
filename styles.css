@@ -1,0 +1,158 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 400;
+  background: #000;
+  color: #222;
+  line-height: 1.6;
+  min-height: 100vh;
+  position: relative;
+}
+
+body::before,
+body::after {
+  content: '';
+  position: fixed;
+  top: 20vh;
+  width: 10px;
+  height: 50vh;
+  background: #ffd700;
+  border-radius: 50px 0 0 50px;
+  filter: blur(0.5px);
+  z-index: 0;
+  pointer-events: none;
+}
+
+body::before {
+  left: 1rem;
+  border-radius: 0 50px 50px 0;
+}
+
+body::after {
+  right: 1rem;
+}
+
+h1, h2, h3, h4, h5, h6,
+.navbar-brand,
+.btn,
+.card h3,
+.section-heading h2,
+.review-card,
+.form-label {
+  font-family: 'Times New Roman', Times, serif;
+}
+
+section:not(.bg-white):not(.bg-light) {
+  background: #ffffff;
+  border: 5px solid #ffd700;
+  border-radius: 1rem;
+  padding: 1.5rem 1.25rem;
+  color: #222;
+}
+
+.bg-white {
+  background-color: #ffffff !important;
+  border: 5px solid #ffd700;
+  color: #222;
+}
+
+.bg-light {
+  background-color: #f1f5f9 !important;
+  border: 5px solid #ffd700;
+  color: #222;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+.navbar-brand,
+.btn {
+  font-weight: 600;
+}
+
+header {
+  background: #ffffff;
+  border-bottom: 1px solid #d1d5db;
+}
+
+main {
+  max-width: 1080px;
+  margin: 0 auto;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background: #f1f5f9;
+  border-top: 1px solid #d1d5db;
+  padding: 1.75rem 0;
+  color: #495057;
+}
+
+.footer-inner {
+  max-width: 1080px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-brand {
+  font-weight: 700;
+  margin-bottom: 0.35rem;
+}
+
+.footer-links a {
+  color: #495057;
+  text-decoration: none;
+  margin: 0 0.75rem;
+}
+
+.footer-links a:hover,
+.footer-links a:focus {
+  color: #0d6efd;
+}
+
+.nav-link {
+  color: #333333 !important;
+}
+
+.nav-link:hover,
+.nav-link:focus {
+  color: #0d6efd !important;
+}
+
+.navbar-brand {
+  font-size: 1.1rem;
+}
+
+.navbar .bi {
+  font-size: 1rem;
+}
+
+.card {
+  border: 5px solid #ffd700;
+}
+
+section h2 {
+  margin-top: 0;
+}
+
+.review-card {
+  border: 5px solid #ffd700;
+  border-radius: 0.9rem;
+}
+
+.review-stars i {
+  font-size: 1rem;
+}
+
+footer {
+  font-size: 0.95rem;
+}
+

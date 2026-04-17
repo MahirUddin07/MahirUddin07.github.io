@@ -4,27 +4,155 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Grund HTML-sida</title>
-    <!-- Bootstrap CSS -->
+    <title>Salong Nilsson - Hem</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Egen CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.4/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <header>
+    <header></header>
 
-    </header>
-    
-    <main></main>
-    <footer></footer>
+    <main class="container py-4">
+        <section class="bg-white p-4 rounded-3 shadow-sm mb-4">
+            <div class="row align-items-center gy-4">
+                <div class="col-md-6">
+                    <h1 class="h2">Välkommen till Salong Nilsson</h1>
+                    <p>Vi är en liten frisörsalong som gärna hjälper dig med klippning, färg och styling. Här får du personlig service utan krångel.</p>
+                    <a href="Kontakt.html" class="btn btn-primary">Boka tid</a>
+                </div>
+                <div class="col-md-6">
+                    <img src="gruppbild.png" class="img-fluid rounded-3" alt="Bild på salongen">
+                </div>
+            </div>
+        </section>
 
+        <section class="mb-4">
+            <h2 class="h4 mb-3">Vad vi erbjuder</h2>
+            <div class="row g-3">
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card p-3 h-100">
+                        <h3 class="h6">Damklippning</h3>
+                        <p class="mb-0">Enkla och snygga klippningar för alla.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card p-3 h-100">
+                        <h3 class="h6">Herrklippning</h3>
+                        <p class="mb-0">Snabb och prisvärd herrklippning.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card p-3 h-100">
+                        <h3 class="h6">Färg & toning</h3>
+                        <p class="mb-0">Färgning som passar dig och ditt hår.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3">
+                    <div class="card p-3 h-100">
+                        <h3 class="h6">Styling</h3>
+                        <p class="mb-0">Styling för fest eller vardag.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
 
+        <section class="bg-white p-4 rounded-3 shadow-sm mb-4">
+            <h2 class="h4 mb-3">Om salongen</h2>
+            <div class="row align-items-center gy-3">
+                <div class="col-md-6">
+                    <p>Salong Nilsson drivs av Mrs. Nilsson och hennes team. Vi är ett gäng som gillar att jobba med hår på ett enkelt sätt utan att det känns för fint.</p>
+                    <p>Mrs. Nilsson har jobbat som frisör i många år. Hon gillar att hjälpa kunder med både vardagsklippningar och mer kreativa färger.</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="Nillson.jpg" class="img-fluid rounded-3" alt="Mrs. Nilsson">
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-4">
+            <h2 class="h4 mb-3">Recensioner</h2>
+            <div class="row g-3">
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card review-card p-3 h-100">
+                        <div class="review-stars mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <p class="mb-3">"Trevlig salong och riktigt bra klippning."</p>
+                        <div class="text-muted">– Maria</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card review-card p-3 h-100">
+                        <div class="review-stars mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star text-warning"></i>
+                        </div>
+                        <p class="mb-3">"Bra priser och service. Rekommenderas."</p>
+                        <div class="text-muted">– Ahmed</div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4">
+                    <div class="card review-card p-3 h-100">
+                        <div class="review-stars mb-2">
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                            <i class="bi bi-star-fill text-warning"></i>
+                        </div>
+                        <p class="mb-3">"Jag blev nöjd och kommer tillbaka."</p>
+                        <div class="text-muted">– Elin</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-white p-4 rounded-3 shadow-sm mb-4">
+            <h2 class="h4 mb-3">Boka tid</h2>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label class="form-label">Namn</label>
+                    <input type="text" class="form-control" placeholder="Ditt namn">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Telefon</label>
+                    <input type="tel" class="form-control" placeholder="012-345 67 89">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">E-post</label>
+                    <input type="email" class="form-control" placeholder="exempel@mail.se">
+                </div>
+                <div class="col-md-6">
+                    <label class="form-label">Tjänst</label>
+                    <select class="form-select">
+                        <option selected>Välj tjänst</option>
+                        <option>Damklippning</option>
+                        <option>Herrklippning</option>
+                        <option>Färg & toning</option>
+                        <option>Styling</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <button type="button" class="btn btn-primary">Skicka förfrågan</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="init.js"></script>
 </body>
-<!-- Bootstrap JS (valfritt) -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
-<!-- Egen JS (valfritt) -->
-<script src="init.js"></script>
 
 </html>
